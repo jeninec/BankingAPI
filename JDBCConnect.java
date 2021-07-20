@@ -15,11 +15,14 @@ public class JDBCConnect {
 		 */
 		if (conn == null) {
 			// establish connection
-			String endpoint = "jenine-db-postgres.cheon2hs9vmf.us-east-2.rds.amazonaws.com";
+			// add your actual db url as endpoint
+			String endpoint = "db url";
 			
 			String url = "jdbc:postgresql://" + endpoint + "/postgres";
-			String username = "cjenine";
-			String pwd = "myPassword223";
+			// add your actual username
+			String username = "username";
+			//add your actual password
+			String pwd = "password";
 
 			//return established connection
 			try {
